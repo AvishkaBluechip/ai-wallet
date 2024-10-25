@@ -1,0 +1,146 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?"],
+            "responses": ["Hello!", "Hi there!", "How can I assist you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["Goodbye!", "Have a nice day!"]
+        },
+        {
+            "tag": "connect_wallet",
+            "patterns": [
+              "Connect my wallet",
+              "Link my Coinbase wallet",
+              "Connect wallet",
+              "Link wallet"
+            ]
+        },
+        {
+            "tag": "check_balance",
+            "patterns": [
+              "Check my balance",
+              "What is my balance?",
+              "Show my balance",
+              "Balance"
+            ]
+        },
+        {
+            "tag": "predict_transactions",
+            "patterns": [
+              "Predict my transactions",
+              "What will my transactions look like?",
+              "Forecast transactions",
+              "Predict future transactions"
+            ]
+        },
+        {
+            "tag": "show_transactions",
+            "patterns": [
+              "Show my transactions",
+              "Display my transactions",
+              "List my transactions",
+              "Transaction history"
+            ]
+        },
+        {
+            "tag": "show_spending",
+            "patterns": [
+              "Show my spending",
+              "Display my spending",
+              "List my spending",
+              "Spending history"
+            ]
+        },
+        {
+            "tag": "show_income",
+            "patterns": [
+              "Show my income",
+              "Display my income",
+              "List my income",
+              "Income history"
+            ]
+        },
+        {
+            "tag": "show_savings",
+            "patterns": [
+              "Show my savings",
+              "Display my savings",
+              "List my savings",
+              "Savings history"
+            ]
+        },
+        {
+            "tag": "show_investments",
+            "patterns": [
+              "Show my investments",
+              "Display my investments",
+              "List my investments",
+              "Investment history"
+            ]
+        },
+        {
+            "tag": "show_debts",
+            "patterns": [
+              "Show my debts",
+              "Display my debts",
+              "List my debts",
+              "Debt history"
+            ]
+        },
+        {
+            "tag": "show_net_worth",
+            "patterns": [
+              "Show my net worth",
+              "Display my net worth",
+              "List my net worth",
+              "Net worth history"
+            ]
+        },
+        {
+            "tag": "show_budget",
+            "patterns": [
+              "Show my budget",
+              "Display my budget",
+              "List my budget",
+              "Budget history"
+            ]
+        },
+        {
+            "tag": "show_trends",
+            "patterns": [
+              "Show my trends",
+              "Display my trends",
+              "List my trends",
+              "Trend history"
+            ]
+        },
+        {
+            "tag": "show_forecast",
+            "patterns": [
+              "Show my forecast",
+              "Display my forecast",
+              "List my forecast",
+              "Forecast history"
+            ]
+        },
+        {
+            "tag": "show_summary",
+            "patterns": [
+              "Show my summary",
+              "Display my summary",
+              "List my summary",
+              "Summary history"
+            ]
+        },
+        {
+            "tag": "show_all",
+            "patterns": [
+              "Show all"
+            ]
+        }
+    ]
+}
